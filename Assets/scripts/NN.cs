@@ -11,7 +11,7 @@ public class NN : MonoBehaviour
 {
     //the values all together like weights biases etc will be handled by an external script
     [Header("input")]
-    public int inputLen = 5;
+    public int inputLen = 4;
     public float[] input; //len=4, 0=birdY, 1=birdLinearVeloY,2=pipeDistance,3=pipeGapheightDelta
     public float[][] inputWeights;
     [Header("hidden")]
